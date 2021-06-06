@@ -1,0 +1,37 @@
+<div class="coin-chart">
+    <div class="coin-chart__header">
+        <h3>{{ data.coinName }} Chart</h3>
+        <ui-chart-fullscreen-button
+            [chart]="chart"
+        ></ui-chart-fullscreen-button>
+        <ui-chart-exports-button
+            [chart]="chart"
+            [chartData]="data"
+            [selectedTab]="selectedTab"
+        ></ui-chart-exports-button>
+    </div>
+
+    <div class="coin-chart__options">
+        <ui-chart-data-tabs
+            [chart]="chart"
+            [data]="data"
+            [selected]="selectedTab"
+            (selectedChange)="onDataTabChange($event)"
+        ></ui-chart-data-tabs>
+        <ui-chart-range-selector
+            [chart]="chart"
+            [selected]="selectedRange"
+            (selectedChange)="onRangeChange($event)"
+            [dateRange]="selectedCalendarRange"
+            (dateRangeChange)="onCalendarDateChange($event)"
+        ></ui-chart-range-selector>
+    </div>
+    <highcharts-chart
+        class="line-chart"
+        [Highcharts]="highcharts"
+        [options]="chartOptions"
+        constructorType="stockChart"
+        (chartInstance)="getChartInstance($event)"
+    ></highcharts-chart>
+    <ui-coin-chart-legend [chart]="chart"></ui-coin-chart-legend>
+</div>

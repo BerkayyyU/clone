@@ -1,0 +1,30 @@
+<div (click)="$event.stopPropagation()" class="calendar-menu">
+    <mat-calendar
+        class="calendar-menu__calendar"
+        (selectedChange)="select($event)"
+        [maxDate]="maxDate"
+        [selected]="selected"
+    ></mat-calendar>
+
+    <ui-predefined-dates
+        [predefinedDates]="predefinedDates"
+        (predefinedDateEvent)="setPredefinedDate($event)"
+    ></ui-predefined-dates>
+
+    <div class="calendar-menu__footer">
+        <button mat-button (click)="closeMenu()">Cancel</button>
+        <div class="calendar-menu__footer__selected-range">
+            <span>Selected: </span>
+            {{ range }} days
+        </div>
+        <button
+            class="calendar-menu__footer__btn--confirm"
+            mat-flat-button
+            color="primary"
+            (click)="onConfirm()"
+            [disabled]="!selected.end"
+        >
+            Confirm
+        </button>
+    </div>
+</div>

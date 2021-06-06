@@ -1,0 +1,53 @@
+@import './assets/styles/variables';
+@import './assets/styles/overrides';
+@import './assets/styles/utilities';
+@import './assets/styles/libs';
+@import './assets/styles/tables';
+@import './assets/styles/dark-theme';
+
+html {
+    font-size: 0.625em;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-size: 1.4rem;
+    font-family: 'Inter', sans-serif;
+    background: var(--theme-background);
+    color: var(--theme-color);
+
+    @media (min-width: 567px) {
+        overflow: auto !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+ul {
+    list-style: none;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}

@@ -1,0 +1,402 @@
+[
+    {
+        "market_id": "1",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/USDT",
+        "price": 54462.22,
+        "volume": 4018305861,
+        "volume_percentage": 6.33,
+        "liquidity": 888
+    },
+    {
+        "market_id": "2",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/102.png",
+        "market_name": "Huobi Global",
+        "pairs": "BTC/USDT",
+        "price": 54448.11,
+        "volume": 1611191824,
+        "volume_percentage": 2.54,
+        "liquidity": 925
+    },
+    {
+        "market_id": "3",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png",
+        "market_name": "Coinbase Exchange",
+        "pairs": "BTC/USD",
+        "price": 54409.0,
+        "volume": 1295336827,
+        "volume_percentage": 2.04,
+        "liquidity": 735
+    },
+    {
+        "market_id": "4",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/BUSD",
+        "price": 54465.75,
+        "volume": 1043018886,
+        "volume_percentage": 1.64,
+        "liquidity": 846
+    },
+    {
+        "market_id": "5",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/37.png",
+        "market_name": "Bitfinex",
+        "pairs": "BTC/USD",
+        "price": 54348.0,
+        "volume": 565064806,
+        "volume_percentage": 0.89,
+        "liquidity": 726
+    },
+    {
+        "market_id": "6",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/139.png",
+        "market_name": "bitFlyer",
+        "pairs": "BTC/JPY",
+        "price": 54485.01,
+        "volume": 431168700,
+        "volume_percentage": 0.68,
+        "liquidity": 481
+    },
+    {
+        "market_id": "7",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/70.png",
+        "market_name": "Bitstamp",
+        "pairs": "BTC/USD",
+        "price": 54395.06,
+        "volume": 411005517,
+        "volume_percentage": 0.65,
+        "liquidity": 453
+    },
+    {
+        "market_id": "8",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "ETH/BTC",
+        "price": 54585.35,
+        "volume": 400202504,
+        "volume_percentage": 0.63,
+        "liquidity": 831
+    },
+    {
+        "market_id": "9",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/24.png",
+        "market_name": "Kraken",
+        "pairs": "BTC/USD",
+        "price": 54418.9,
+        "volume": 38442501,
+        "volume_percentage": 0.61,
+        "liquidity": 799
+    },
+    {
+        "market_id": "10",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/524.png",
+        "market_name": "FTX",
+        "pairs": "BTC/USD",
+        "price": 54376.0,
+        "volume": 351624004,
+        "volume_percentage": 0.55,
+        "liquidity": 602
+    },
+    {
+        "market_id": "11",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/200.png",
+        "market_name": "Bithumb",
+        "pairs": "BTC/KRW",
+        "price": 57216.13,
+        "volume": 323673664,
+        "volume_percentage": 0.51,
+        "liquidity": 505
+    },
+    {
+        "market_id": "12",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/24.png",
+        "market_name": "Kraken",
+        "pairs": "BTC/EUR",
+        "price": 54516.62,
+        "volume": 306007624,
+        "volume_percentage": 0.48,
+        "liquidity": 862
+    },
+    {
+        "market_id": "13",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "XRP/BTC",
+        "price": 54583.12,
+        "volume": 278532042,
+        "volume_percentage": 0.44,
+        "liquidity": 268
+    },
+    {
+        "market_id": "14",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/311.png",
+        "market_name": "KuCoin",
+        "pairs": "BTC/USDT",
+        "price": 54447.68,
+        "volume": 270045284,
+        "volume_percentage": 0.43,
+        "liquidity": 884
+    },
+    {
+        "market_id": "15",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/EUR",
+        "price": 54543.47,
+        "volume": 228740881,
+        "volume_percentage": 0.36,
+        "liquidity": 661
+    },
+    {
+        "market_id": "16",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/112.png",
+        "market_name": "Liquid",
+        "pairs": "BTC/JPY",
+        "price": 54479.17,
+        "volume": 210098239,
+        "volume_percentage": 0.33,
+        "liquidity": 419
+    },
+    {
+        "market_id": "17",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/106.png",
+        "market_name": "Coincheck",
+        "pairs": "BTC/JPY",
+        "price": 54538.19,
+        "volume": 18370074,
+        "volume_percentage": 0.29,
+        "liquidity": 461
+    },
+    {
+        "market_id": "18",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/BTC",
+        "price": 54583.12,
+        "volume": 165056921,
+        "volume_percentage": 0.26,
+        "liquidity": 606
+    },
+    {
+        "market_id": "19",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/524.png",
+        "market_name": "FTX",
+        "pairs": "BTC/USDT",
+        "price": 54459.39,
+        "volume": 160662206,
+        "volume_percentage": 0.25,
+        "liquidity": 386
+    },
+    {
+        "market_id": "20",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "THETA/BTC",
+        "price": 55257.94,
+        "volume": 142348858,
+        "volume_percentage": 0.22,
+        "liquidity": 497
+    },
+    {
+        "market_id": "21",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/USDT",
+        "price": 54462.22,
+        "volume": 162032857,
+        "volume_percentage": 0.26,
+        "liquidity": 251
+    },
+    {
+        "market_id": "22",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png",
+        "market_name": "Coinbase Exchange",
+        "pairs": "BTC/EUR",
+        "price": 55138.61,
+        "volume": 148438661,
+        "volume_percentage": 0.24,
+        "liquidity": 526
+    },
+    {
+        "market_id": "23",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/524.png",
+        "market_name": "FTX",
+        "pairs": "BTC/USDT",
+        "price": 55130.34,
+        "volume": 133064304,
+        "volume_percentage": 0.21,
+        "liquidity": 459
+    },
+    {
+        "market_id": "24",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/USD",
+        "price": 55111.65,
+        "volume": 132529283,
+        "volume_percentage": 0.21,
+        "liquidity": 510
+    },
+    {
+        "market_id": "25",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/37.png",
+        "market_name": "Bitfinex",
+        "pairs": "BTC/KRW",
+        "price": 57628.37,
+        "volume": 124270044,
+        "volume_percentage": 0.2,
+        "liquidity": 436
+    },
+    {
+        "market_id": "26",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/USDC",
+        "price": 55141.45,
+        "volume": 123714560,
+        "volume_percentage": 0.2,
+        "liquidity": 483
+    },
+    {
+        "market_id": "27",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "ONE/BTC",
+        "price": 55257.94,
+        "volume": 81676236,
+        "volume_percentage": 0.13,
+        "liquidity": 138
+    },
+    {
+        "market_id": "28",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/GBP",
+        "price": 55206.0,
+        "volume": 75398225,
+        "volume_percentage": 0.12,
+        "liquidity": 421
+    },
+    {
+        "market_id": "29",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png",
+        "market_name": "Coinbase Pro",
+        "pairs": "BTC/GBP",
+        "price": 55157.17,
+        "volume": 72327598,
+        "volume_percentage": 0.12,
+        "liquidity": 437
+    },
+    {
+        "market_id": "30",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/37.png",
+        "market_name": "Bitfinex",
+        "pairs": "BTC/USDT",
+        "price": 55126.33,
+        "volume": 69813961,
+        "volume_percentage": 0.11,
+        "liquidity": 492
+    },
+    {
+        "market_id": "31",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/200.png",
+        "market_name": "Bithumb",
+        "pairs": "BTC/KRW",
+        "price": 57216.13,
+        "volume": 323673664,
+        "volume_percentage": 0.51,
+        "liquidity": 505
+    },
+    {
+        "market_id": "32",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/24.png",
+        "market_name": "Kraken",
+        "pairs": "BTC/EUR",
+        "price": 54516.62,
+        "volume": 306007624,
+        "volume_percentage": 0.48,
+        "liquidity": 862
+    },
+    {
+        "market_id": "33",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "XRP/BTC",
+        "price": 54583.12,
+        "volume": 278532042,
+        "volume_percentage": 0.44,
+        "liquidity": 268
+    },
+    {
+        "market_id": "34",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/311.png",
+        "market_name": "KuCoin",
+        "pairs": "BTC/USDT",
+        "price": 54447.68,
+        "volume": 270045284,
+        "volume_percentage": 0.43,
+        "liquidity": 884
+    },
+    {
+        "market_id": "35",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BTC/EUR",
+        "price": 54543.47,
+        "volume": 228740881,
+        "volume_percentage": 0.36,
+        "liquidity": 661
+    },
+    {
+        "market_id": "36",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/112.png",
+        "market_name": "Liquid",
+        "pairs": "BTC/JPY",
+        "price": 54479.17,
+        "volume": 210098239,
+        "volume_percentage": 0.33,
+        "liquidity": 419
+    },
+    {
+        "market_id": "37",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/106.png",
+        "market_name": "Coincheck",
+        "pairs": "BTC/JPY",
+        "price": 54538.19,
+        "volume": 18370074,
+        "volume_percentage": 0.29,
+        "liquidity": 461
+    },
+    {
+        "market_id": "38",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png",
+        "market_name": "Binance",
+        "pairs": "BNB/BTC",
+        "price": 54583.12,
+        "volume": 165056921,
+        "volume_percentage": 0.26,
+        "liquidity": 606
+    },
+    {
+        "market_id": "39",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/524.png",
+        "market_name": "FTX",
+        "pairs": "BTC/USDT",
+        "price": 54459.39,
+        "volume": 160662206,
+        "volume_percentage": 0.25,
+        "liquidity": 571
+    },
+    {
+        "market_id": "40",
+        "market_icon": "https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png",
+        "market_name": "Coinbase Pro",
+        "pairs": "BTC/EUR",
+        "price": 54486.77,
+        "volume": 142348858,
+        "volume_percentage": 0.22,
+        "liquidity": 497
+    }
+]

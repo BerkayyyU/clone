@@ -1,0 +1,9 @@
+<ui-line-chart
+    [data]="chartData$ | async"
+    [selectedTab]="selectedTab$ | async"
+    [selectedRange]="selectedRange$ | async"
+    [selectedCalendarRange]="selectedCalendarRange$ | async"
+    (selectTabChange)="selectTabChange($event)"
+    (selectedRangeChange)="selectedRangeChange($event)"
+    (selectedCalendarRangeChange)="selectedCalendarRangeChange($event)"
+></ui-line-chart>

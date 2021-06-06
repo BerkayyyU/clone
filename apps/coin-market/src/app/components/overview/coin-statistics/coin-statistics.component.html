@@ -1,0 +1,128 @@
+<section class="coin-statistics" *ngIf="coinStatistics$ | async as s">
+    <h2>{{ s.coin_id | uppercase }} Price Statistics</h2>
+    <div class="coin-statistics__table">
+        <div class="coin-statistics__table__caption">Bitcoin Price Today</div>
+        <coin-market-coin-statistic-row
+            title="Bitcoin Price"
+            [value]="s.price"
+            [isCurrency]="true"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Price Change"
+            [value]="s.price_change_24h"
+            [dayTag]="true"
+            [isCurrency]="true"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="24h Low / 24h High"
+            [value]="[s.price_low_high_24h.low, s.price_low_high_24h.high]"
+            [isCurrency]="true"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Trading Volume"
+            [dayTag]="true"
+            [value]="s.trading_volume_24h"
+            [isCurrency]="true"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Volume / Market Cap"
+            [value]="s.trading_volume_24h / s.market_cap"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Market Dominance"
+            [value]="s.market_dominance + '%'"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Market Rank"
+            [value]="'#' + s.market_rank"
+        ></coin-market-coin-statistic-row>
+        <div class="coin-statistics__table__caption">Bitcoin Market Cap</div>
+        <coin-market-coin-statistic-row
+            title="Market Cap"
+            [isCurrency]="true"
+            [value]="s.market_cap"
+        ></coin-market-coin-statistic-row>
+        <coin-market-coin-statistic-row
+            title="Fully Diluted Market Cap"
+            [value]="s.fully_diluted_market_cap"
+            [isCurrency]="true"
+        ></coin-market-coin-statistic-row>
+    </div>
+    <ng-container *ngIf="expanded">
+        <div class="coin-statistics__table">
+            <div class="coin-statistics__table__caption">
+                Bitcoin Price Yesterday
+            </div>
+            <coin-market-coin-statistic-row
+                title="Yesterday's Low / High"
+                [value]="[
+                    s.price_low_high_yesterday.low,
+                    s.price_low_high_yesterday.high
+                ]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="Yesterday's Open / Close"
+                [value]="[
+                    s.price_open_close_yesterday.open,
+                    s.price_open_close_yesterday.close
+                ]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="Yesterday's Change"
+                [percentage]="s.price_change_percentage_yesterday"
+            ></coin-market-coin-statistic-row>
+
+            <div class="coin-statistics__table__caption">
+                Bitcoin Price History
+            </div>
+            <coin-market-coin-statistic-row
+                title="7d Low / 7d High"
+                [value]="[s.price_low_high_7d.low, s.price_low_high_7d.high]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="30d Low / 30d High"
+                [value]="[s.price_low_high_30d.low, s.price_low_high_30d.high]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="90d Low / 90d High"
+                [value]="[s.price_low_high_90d.low, s.price_low_high_90d.high]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="52 Week Low / 52 Week High"
+                [value]="[s.price_low_high_52w.low, s.price_low_high_52w.high]"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="All Time High"
+                [value]="s.price_low_high_all.high.high_price"
+                [isCurrency]="true"
+                [date]="s.price_low_high_all.high.date"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="All Time Low"
+                [value]="s.price_low_high_all.low.low_price"
+                [isCurrency]="true"
+                [date]="s.price_low_high_all.low.date"
+            ></coin-market-coin-statistic-row>
+
+            <div class="coin-statistics__table__caption">Bitcoin Supply</div>
+            <coin-market-coin-statistic-row
+                title="Circulating Supply"
+                [value]="
+                    (s.circulating_supply.circulating_supply | number) + ' BTC'
+                "
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="Total Supply"
+                [value]="(s.circulating_supply.total_supply | number) + ' BTC'"
+            ></coin-market-coin-statistic-row>
+            <coin-market-coin-statistic-row
+                title="Max Supply"
+                [value]="(s.circulating_supply.max_supply | number) + ' BTC'"
+            ></coin-market-coin-statistic-row>
+        </div>
+    </ng-container>
+
+    <button class="large-gray-button" (click)="expanded = !expanded">
+        {{ expanded ? 'Show Less' : 'Show More' }}
+    </button>
+</section>

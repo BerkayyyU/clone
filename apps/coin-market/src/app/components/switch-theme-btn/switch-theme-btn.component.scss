@@ -1,0 +1,25 @@
+.dark-mode {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    color: var(--theme-color);
+    cursor: pointer;
+    display: inline-flex;
+    line-height: 12px;
+    font-size: inherit;
+    margin: 0px;
+    padding: 5px;
+    vertical-align: baseline;
+    white-space: nowrap;
+
+    .dark-mode-moon {
+        display: flex;
+        font-size: inherit !important;
+        justify-content: center;
+        align-items: center;
+        font-weight: normal !important;
+        transform: rotate(-45deg);
+    }
+}

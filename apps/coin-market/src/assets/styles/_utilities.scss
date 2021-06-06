@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.bg-gray-card {
+    background-color: var(--color-light-neutral-1);
+    padding: 2.4rem;
+    border-radius: 16px;
+}
+
+.badge-gray {
+    color: var(--color-light-neutral-6);
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: var(--color-light-neutral-2);
+    font-size: 1.16rem;
+}
+
+.vertical-gray-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-light-neutral-2);
+    border-radius: 10px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+
+    &__item {
+        padding: 0.6rem 2rem;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color: var(--color-light-neutral-6);
+        border-radius: inherit;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--selected {
+            background-color: var(--theme-background);
+        }
+
+        &.other {
+            padding: 0.6rem 1rem;
+        }
+
+        &:hover {
+            background-color: var(--control-background-color);
+        }
+    }
+}
+
+.large-gray-button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem 0;
+    width: 25rem;
+    font-weight: bold;
+    background-color: var(--color-light-neutral-2);
+    margin: 2rem auto;
+    border-radius: 8px;
+    color: inherit;
+
+    &:hover {
+        background-color: var(--color-light-neutral-3);
+    }
+}
+
+.table-responsive {
+    overflow: auto;
+    width: 100%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

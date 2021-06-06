@@ -1,0 +1,60 @@
+.coin-converter {
+    border: 2px solid var(--theme-border-color);
+    padding: 0;
+    box-shadow: none;
+    border-radius: 16px;
+
+    .currency {
+        padding: 2.4rem;
+        display: flex;
+
+        &:last-child {
+            background-color: var(--color-light-neutral-1);
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit;
+        }
+
+        &__details {
+            display: flex;
+            align-items: center;
+
+            &__name {
+                p {
+                    margin: 0;
+                    font-weight: bold;
+                    white-space: nowrap;
+                }
+                small {
+                    color: var(--color-light-neutral-6);
+                }
+            }
+
+            figure {
+                margin: 0 1.2rem;
+
+                img {
+                    width: 3.2rem;
+                }
+            }
+        }
+
+        &__input {
+            font-size: 1.8rem;
+            font-family: inherit;
+            flex-grow: 1;
+            border: none;
+            font-weight: bolder;
+            text-align: right;
+            background-color: transparent;
+            width: 100%;
+            color: inherit;
+
+            &:focus {
+                outline: none;
+            }
+            &::placeholder {
+                color: var(--color-light-neutral-4);
+            }
+        }
+    }
+}

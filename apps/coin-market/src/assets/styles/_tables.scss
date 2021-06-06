@@ -1,0 +1,26 @@
+.home-gainers-losers-table {
+    .coin-icon-name-id {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+
+        .coin-icon {
+            height: 2.4rem;
+            width: 2.4rem;
+            border-radius: 12px;
+        }
+
+        .coin-name {
+            margin: 0rem 0rem 0rem 0.5rem;
+            line-height: 2.4rem;
+            font-weight: bold;
+        }
+        .coin-id {
+            color: rgb(128, 138, 157);
+            margin: 0rem 0rem 0rem 0.6rem;
+            line-height: 2.4rem;
+            font-size: 1.4rem;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.home-gainers-losers-table {
+    table {
+        margin: auto;
+        font-size: 1.4rem;
+        width: 100%;
+        box-shadow: none !important;
+        background: var(--theme-background);
+
+        th {
+            color: var(--theme-color);
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+        }
+        .mat-cell {
+            color: var(--theme-color);
+        }
+    }
+
+    .arrow {
+        display: flex;
+        flex-direction: row;
+        .down {
+            color: var(--down-color);
+            font-weight: bold;
+        }
+        .up {
+            color: var(--up-color);
+            font-weight: bold;
+        }
+    }
+
+    tr:hover {
+        background-color: var(--table-row-hover-background-color);
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+        padding-top: 3.6rem;
+        padding-bottom: 3.6rem;
+    }
+
+    .dots {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        font-weight: normal;
+    }
+
+    .mat-button-focus-overlay {
+        opacity: 0 !important;
+    }
+
+    .rows {
+        box-sizing: border-box;
+        margin: 0rem;
+        display: flex;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        float: right;
+        padding-bottom: 10px;
+
+        .row-text {
+            line-height: 1.5;
+            margin: 0rem 0.6rem 0rem 0rem;
+            color: var(--text-color-sub);
+            font-size: 1.2rem;
+        }
+    }
+}
